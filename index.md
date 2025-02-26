@@ -94,7 +94,7 @@ For phoneme-level styles, we assign one of the following techniques to each phon
 
 **Global Style (range, pace, emotion)**: high, moderate, sad
 
-**Phoneme with Technique**: &lt;SP&gt;(0), b(2), u(2), z(2), ai(2), k(2), an(2), an(2), t(2), ian(2), sh(2), ang(2), t(2), ai(2), iang(2), t(2), ou(2), g(2), uo(2), uo(2), vn(2), c(2), ai(2), d(2), e(2), e(2), g(2), uang(2)
+**Phoneme with Technique**: &lt;SP&gt;(0), b(2), u(2), z(2), ai(2), k(2), an(2,6), an(2,6), t(2), ian(2), sh(2), ang(2), t(2), ai(2), iang(2), t(2), ou(2), g(2), uo(2,6), uo(2,6), vn(2), c(2), ai(2), d(2), e(2,6), e(2,6), g(2), uang(2)
 
 _(0: no technique, 1: mixed, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato, 6: glissando, 7: weak, 8: strong, 9: bubble)_
 
@@ -140,7 +140,7 @@ _(0: no technique, 1: mixed, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato,
 
 **Global Style (range, pace, emotion)**: medium, fast, happy
 
-**Phoneme with Technique**: z(8), ai(8), iang(8), iang(8), g(8), uang(8), c(8), an(8), an(8), l(8), an(8), d(8), e(8), r(8), i(8), z(8), i(8), l(8), i(8), k(8), ai(8), h(8), uai(8), d(8), a(8), a(8), x(8), iao(8)
+**Phoneme with Technique**: z(8), ai(8), iang(6,8), iang(6,8), g(8), uang(8), c(8), an(6,8), an(6,8), l(8), an(8), d(8), e(8), r(8), i(8), z(8), i(8), l(8), i(8), k(8), ai(8), h(8), uai(8), d(8), a(6,8), a(6,8), x(8), iao(8)
 
 _(0: no technique, 1: mixed, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato, 6: glissando, 7: weak, 8: strong, 9: bubble)_
 
