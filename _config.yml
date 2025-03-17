@@ -3,5 +3,5 @@ layout: default
 markdown: kramdown
 kramdown:
   toc_levels: 1..2
-title: "STARS: An Unified Framework for Singing Transcription, Alignment, and Refined Style Annotation"
+title: "STARS: A Unified Framework for Singing Transcription, Alignment, and Refined Style Annotation"
 
