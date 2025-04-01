@@ -26,7 +26,7 @@ To assess the performance of STARS in the lyric and note alignment task, we rand
   <img src="figs/note/0000.png" alt="Note Transcription" style="width: 100%; max-width: 600px;">
   <p><strong>Note Transcription</strong></p>
   <audio controls style="width: 40%; max-width: 600px;">
-    <source src="wavs/la/0000.wav" type="audio/wav">
+	<source src="wavs/la/0000.wav" type="audio/wav">
   </audio>
   <p><strong>Audio</strong></p>
 </div>
@@ -45,7 +45,7 @@ To assess the performance of STARS in the lyric and note alignment task, we rand
   <img src="figs/note/0001.png" alt="Note Transcription" style="width: 100%; max-width: 600px;">
   <p><strong>Note Transcription</strong></p>
   <audio controls style="width: 40%; max-width: 600px;">
-    <source src="wavs/la/0001.wav" type="audio/wav">
+	<source src="wavs/la/0001.wav" type="audio/wav">
   </audio>
   <p><strong>Audio</strong></p>
 </div>
@@ -64,7 +64,7 @@ To assess the performance of STARS in the lyric and note alignment task, we rand
   <img src="figs/note/0002.png" alt="Note Transcription" style="width: 100%; max-width: 600px;">
   <p><strong>Note Transcription</strong></p>
   <audio controls style="width: 40%; max-width: 600px;">
-    <source src="wavs/la/0002.wav" type="audio/wav">
+	<source src="wavs/la/0002.wav" type="audio/wav">
   </audio>
   <p><strong>Audio</strong></p>
 </div>
@@ -127,7 +127,7 @@ _(0: no technique, 1: mixed, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato,
 		<tr>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/real/0000.wav' type='audio/wav'></audio></td>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mix/0000.wav' type='audio/wav'></audio></td>
-      <td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/pred/0000.wav' type='audio/wav'></audio></td>
+	  <td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/pred/0000.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -173,7 +173,7 @@ _(0: no technique, 1: mixed, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato,
 		<tr>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/real/0001.wav' type='audio/wav'></audio></td>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mix/0001.wav' type='audio/wav'></audio></td>
-      <td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/pred/0001.wav' type='audio/wav'></audio></td>
+	  <td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/pred/0001.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -218,8 +218,102 @@ _(0: no technique, 1: mixed, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato,
 	<tbody>
 		<tr>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/real/0002.wav' type='audio/wav'></audio></td>
-      <td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mix/0002.wav' type='audio/wav'></audio></td>
+	  <td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/mix/0002.wav' type='audio/wav'></audio></td>
 			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/svs/pred/0002.wav' type='audio/wav'></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+# Long SVS (Long Singing Voice Synthesis)
+We introduce a method to integrate global style and phoneme-level technique embeddings into the Singing Voice Synthesis (SVS) model to enable style control. We use the SVS system trained with training with our model's annotations. During inference, we use the predicted annotations. We first generated segments of the entire song and then stitched them together to form the complete piece.
+
+### Global Style Control
+
+For global styles, we specify the following attributes for each test target:
+- **Range**: low, medium, high
+- **Pace**: slow, moderate, fast
+- **Emotion**: happy, sad
+
+### Phoneme-Level Technique Control
+
+For phoneme-level styles, we assign one of the following techniques to each phoneme in the target content: mixed, falsetto, breathy, pharyngeal, vibrato,  glissando, weak, strong, bubble. As the technical specifications and phonetic annotations would be too lengthy, we'll provide a simplified description of the technique sequence.
+
+---
+
+### Example 1
+
+**Word**: &lt;AP&gt; 是 故 意 的 吗 是 我 得 罪 谁 了 吗 &lt;AP&gt; 这 一 天 竟 然 &lt;AP&gt; 每 件 事 情 都 失 算 &lt;AP&gt; 只 想 转 个 弯 &lt;AP&gt; 却 绕 到 了 飞 机 场 &lt;AP&gt;  发 现 没 钱 在 身 上 &lt;AP&gt; 乌 云 乌 云 快 走 开 &lt;AP&gt; 你 可 知 道 我 不 常 带 把 伞 &lt;AP&gt; 带 把 伞 &lt;AP&gt; 乌 云 乌 云 快 走 开 &lt;AP&gt; 感 觉 你 在 挑 战 我 的 乐 观 &lt;AP&gt; 的 乐 观 &lt;AP&gt; 你 还 想 怎 么 样 &lt;AP&gt; 搞 得 我 快 抓 狂 &lt;AP&gt; 求 你 帮 个 忙 &lt;AP&gt; 乌 云 乌 云 别 找 我 麻 烦 &lt;AP&gt; 是 注 定 的 吗 我 穿 上 了 白 衬 衫 &lt;AP&gt; 拿 一 杯 咖 啡 &lt;AP&gt; 偏 在 我 身 上 倒 翻 &lt;AP&gt; 不 如 跑 一 趟 &lt;AP&gt; 商 店 它 却 刚 打 烊 &lt;AP&gt; 妙 不 可 言 的 下 场 &lt;AP&gt;  乌 云 乌 云 快 走 开 &lt;AP&gt;你 可 知 道 我 不 常 带 把 伞 &lt;AP&gt; 带 把 伞 &lt;AP&gt; 乌 云 乌 云 快 走 开 &lt;AP&gt; 感 觉 你 在 挑 战 我 的 乐 观 &lt;AP&gt; 的 乐 观 &lt;AP&gt; 你 还 想 怎 么 样 &lt;AP&gt; 搞 得 我 快 抓 狂 &lt;AP&gt; 求 你 帮 个 忙 &lt;AP&gt; 乌 云 乌 云 别 找 我 麻 烦 &lt;AP&gt; 
+
+**Global Style (range, pace, emotion)**: low, moderate, sad
+
+**Phoneme with Technique**: The song primarily employs falsetto technique, with occasional vibrato at phrase endings in some segments
+
+#### Genration Results
+
+<table style='width: 20%;'>
+	<thead>
+		<tr>
+			<th style='text-align: center'>Genration Results</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/lsvs/0000.wav' type='audio/wav'></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+---
+
+### Example 2
+
+**Word**: &lt;AP&gt; 能 够 握 紧 的 就 别 放 了 &lt;AP&gt; 能 够 拥 抱 的 &lt;AP&gt; 就 别 拉 扯 &lt;AP&gt; 时 间 着 急 的 &lt;AP&gt; 冲 刷 着 &lt;AP&gt; 剩 下 了 什 么 &lt;AP&gt; 原 谅 走 过 的 那 些 曲 折 &lt;AP&gt; 原 来 留 下 的 &lt;AP&gt; 都 是 真 的 &lt;AP&gt; 纵 然 似 梦 啊 &lt;AP&gt; 半 醒 着 &lt;AP&gt; 笑 着 哭 着 都 快 活 &lt;AP&gt; 时 间 是 让 人 促 不 及 防 的 东 西 &lt;AP&gt; 晴 时 有 风 阴 有 时 雨 &lt;AP&gt; 争 不 过 朝 夕 &lt;AP&gt; 又 念 着 往 昔 &lt;AP&gt; 偷 走 了 情 丝 却 留 住 一 个 你 &lt;AP&gt; 岁 月 是 一 场 有 去 无 回 &lt;AP&gt; 的 旅 行 &lt;AP&gt; 好 的 坏 的 &lt;AP&gt; 都 是 风 景 &lt;AP&gt; 别 怪 我 贪 心 &lt;AP&gt; 只 是 不 愿 醒 &lt;AP&gt; 因 为 你 只 愿 你 愿 和 我 一 起 &lt;AP&gt; 看 云 淡 风 轻 &lt;AP&gt;
+
+&lt;AP&gt; 能 够 握 紧 的 就 别 放 了 &lt;AP&gt; 能 够 拥 抱 的 &lt;AP&gt; 就 别 拉 扯 &lt;AP&gt; 时 间 着 急 的 &lt;AP&gt; 冲 刷 着 &lt;AP&gt; 剩 下 了 什 么 &lt;AP&gt; 原 谅 走 过 的 那 些 曲 折 &lt;AP&gt; 原 来 留 下 的 &lt;AP&gt; 都 是 真 的 &lt;AP&gt; 纵 然 似 梦 啊 &lt;AP&gt; 半 醒 着 &lt;AP&gt; 笑 着 哭 着 都 快 活 &lt;AP&gt; 谁 让 &lt;AP&gt; 时 间 是 让 人 促 不 及 防 的 东 西 &lt;AP&gt; 晴 时 有 风 阴 有 时 雨 &lt;AP&gt; 争 不 过 朝 夕 &lt;AP&gt; 又 念 着 往 昔 &lt;AP&gt; 偷 走 了 情 丝 却 留 住 一 个 你 &lt;AP&gt; 岁 月 是 一 场 有 去 无 回 &lt;AP&gt; 的 旅 行 &lt;AP&gt; 好 的 坏 的 &lt;AP&gt; 都 是 风 景 &lt;AP&gt; 别 怪 我 贪 心 &lt;AP&gt; 只 是 不 愿 醒 &lt;AP&gt; 因 为 你 只 为 你 愿 和 我 一 起 &lt;AP&gt; 看 云 淡 风 轻 &lt;AP&gt;
+
+&lt;AP&gt; 时 间 是 让 人 促 不 及 防 的 东 西 &lt;AP&gt; 晴 时 有 风 阴 有 时 雨 &lt;AP&gt; 争 不 过 朝 夕 &lt;AP&gt; 又 念 着 往 昔 &lt;AP&gt; 偷 走 了 青 丝 却 留 住 一 个 你 &lt;AP&gt; 岁 月 是 一 场 有 去 无 回 的 旅 行 &lt;AP&gt; 好 的 坏 的 &lt;AP&gt; 都 是 风 景 &lt;AP&gt; 别 怪 我 贪 心 &lt;AP&gt; 只 是 不 愿 醒 &lt;AP&gt; 因 为 你 只 为 你 愿 和 我 一 起 &lt;AP&gt; 看 云 淡 风 轻 &lt;AP&gt;
+
+**Global Style (range, pace, emotion)**: medium->high, moderate, sad
+
+**Phoneme with Technique**: The first half uses chest voice, while the latter section transitions to mixed voice
+
+#### Genration Results
+
+<table style='width: 20%;'>
+	<thead>
+		<tr>
+			<th style='text-align: center'>Genration Results</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/lsvs/0001.wav' type='audio/wav'></audio></td>
+		</tr>
+	</tbody>
+</table>
+
+---
+
+### Example 3
+
+**Word**: 让我掉下眼泪的&lt;AP&gt; 不止昨夜的酒&lt;AP&gt; 让我依依不舍的&lt;AP&gt; 不止你的温柔&lt;AP&gt; 余路还要走多久&lt;AP&gt; 你攥着我的手&lt;AP&gt; 让我感到为难的&lt;AP&gt; 是挣扎的自由&lt;AP&gt; 分别总是在九月&lt;AP&gt; 回忆是思念的愁&lt;AP&gt; 深秋嫩绿的垂柳&lt;AP&gt; 亲吻着我的额头&lt;AP&gt; 在那座阴雨的小城里&lt;AP&gt; 我从未忘记你&lt;AP&gt; 成都&lt;AP&gt; 带不走的&lt;AP&gt; 只有你&lt;AP&gt; 
+和我在成都的街头走一走&lt;AP&gt; 直到所有的灯都熄灭了也不停留&lt;AP&gt; 你会挽着我的衣袖&lt;AP&gt; 我会把手揣进裤兜&lt;AP&gt; 走到玉林路的尽头&lt;AP&gt; 坐在小酒馆的门口
+
+**Global Style (range, pace, emotion)**: low->medium, moderate, sad
+
+**Phoneme with Technique**: Mixed voice is predominantly utilized as the foundational vocal technique
+
+#### Genration Results
+
+<table style='width: 20%;'>
+	<thead>
+		<tr>
+			<th style='text-align: center'>Genration Results</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/lsvs/0001.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
