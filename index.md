@@ -225,7 +225,7 @@ _(0: no technique, 1: mixed, 2: falsetto, 3: breathy, 4: pharyngeal, 5: vibrato,
 </table>
 
 # Long SVS (Long Singing Voice Synthesis)
-We introduce a method to integrate global style and phoneme-level technique embeddings into the Singing Voice Synthesis (SVS) model to enable style control. We use the SVS system trained with training with our model's annotations. During inference, we use the predicted annotations. We first generated segments of the entire song and then stitched them together to form the complete piece.
+We introduce a method to integrate global style and phoneme-level technique embeddings into the Singing Voice Synthesis (SVS) model to enable style control. We use the SVS system trained with our model's annotations. During inference, we use the predicted annotations. We first generated segments of the entire song and then stitched them together to form the complete piece.
 
 ### Global Style Control
 
