@@ -246,7 +246,7 @@ For phoneme-level styles, we assign one of the following techniques to each phon
 
 **Global Style (range, pace, emotion)**: low, moderate, sad
 
-**Phoneme with Technique**: The song primarily employs falsetto technique, with occasional vibrato at phrase endings in some segments
+**Phoneme with Technique**: The song primarily employs falsetto technique, with occasional vibrato at phrase endings in some segments.
 
 #### Genration Results
 
@@ -273,7 +273,7 @@ For phoneme-level styles, we assign one of the following techniques to each phon
 
 **Global Style (range, pace, emotion)**: medium->high, moderate, sad
 
-**Phoneme with Technique**:  Mixed voice is predominantly utilized as the foundational vocal technique
+**Phoneme with Technique**:  The first half uses chest voice, while the latter section transitions to mixed voice.
 
 #### Genration Results
 
@@ -294,12 +294,11 @@ For phoneme-level styles, we assign one of the following techniques to each phon
 
 ### Example 3
 
-**Word**: 让我掉下眼泪的&lt;AP&gt; 不止昨夜的酒&lt;AP&gt; 让我依依不舍的&lt;AP&gt; 不止你的温柔&lt;AP&gt; 余路还要走多久&lt;AP&gt; 你攥着我的手&lt;AP&gt; 让我感到为难的&lt;AP&gt; 是挣扎的自由&lt;AP&gt; 分别总是在九月&lt;AP&gt; 回忆是思念的愁&lt;AP&gt; 深秋嫩绿的垂柳&lt;AP&gt; 亲吻着我的额头&lt;AP&gt; 在那座阴雨的小城里&lt;AP&gt; 我从未忘记你&lt;AP&gt; 成都&lt;AP&gt; 带不走的&lt;AP&gt; 只有你&lt;AP&gt; 
-和我在成都的街头走一走&lt;AP&gt; 直到所有的灯都熄灭了也不停留&lt;AP&gt; 你会挽着我的衣袖&lt;AP&gt; 我会把手揣进裤兜&lt;AP&gt; 走到玉林路的尽头&lt;AP&gt; 坐在小酒馆的门口
+**Word**: 让 我 掉 下 眼 泪 的 &lt;AP&gt; 不 止 昨 夜 的 酒 &lt;AP&gt; 让 我 依 依 不 舍 的 &lt;AP&gt; 不 止 你 的 温 柔 &lt;AP&gt; 余 路 还 要 走 多 久 &lt;AP&gt; 你 攥 着 我 的 手 &lt;AP&gt; 让 我 感 到 为 难 的 &lt;AP&gt; 是 挣 扎 的 自 由 &lt;AP&gt; 分 别 总 是 在 九 月 &lt;AP&gt; 回 忆 是 思 念 的 愁 &lt;AP&gt; 深 秋 嫩 绿 的 垂 柳 &lt;AP&gt; 亲 吻 着 我 的 额 头 &lt;AP&gt; 在 那 座 阴 雨 的 小 城 里 &lt;AP&gt; 我 从 未 忘 记 你 &lt;AP&gt; 成 都 &lt;AP&gt; 带 不走 的 &lt;AP&gt; 只 有 你 &lt;AP&gt; 和 我 在 成 都 的 街 头 走 一 走 &lt;AP&gt; 直 到 所 有 的 灯 都 熄 灭 了 也 不 停 留 &lt;AP&gt; 你 会 挽 着 我 的 衣 袖 &lt;AP&gt; 我 会 把 手 揣 进 裤 兜 &lt;AP&gt; 走 到 玉 林 路 的 尽 头 &lt;AP&gt; 坐 在 小 酒 馆 的 门 口
 
 **Global Style (range, pace, emotion)**: low->medium, moderate, sad
 
-**Phoneme with Technique**: Mixed voice is predominantly utilized as the foundational vocal technique
+**Phoneme with Technique**: Mixed voice is predominantly utilized as the foundational vocal technique.
 
 #### Genration Results
 
