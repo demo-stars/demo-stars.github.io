@@ -258,7 +258,7 @@ For phoneme-level styles, we assign one of the following techniques to each phon
 	</thead>
 	<tbody>
 		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/lsvs/0000.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/lsvs/0001.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -285,7 +285,7 @@ For phoneme-level styles, we assign one of the following techniques to each phon
 	</thead>
 	<tbody>
 		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/lsvs/0001.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/lsvs/0002.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
@@ -311,7 +311,7 @@ For phoneme-level styles, we assign one of the following techniques to each phon
 	</thead>
 	<tbody>
 		<tr>
-			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/lsvs/0001.wav' type='audio/wav'></audio></td>
+			<td style='text-align: center'><audio controls style='width: 150px;'><source src='wavs/lsvs/0003.wav' type='audio/wav'></audio></td>
 		</tr>
 	</tbody>
 </table>
