@@ -267,15 +267,13 @@ For phoneme-level styles, we assign one of the following techniques to each phon
 
 ### Example 2
 
-**Word**: &lt;AP&gt; 能 够 握 紧 的 就 别 放 了 &lt;AP&gt; 能 够 拥 抱 的 &lt;AP&gt; 就 别 拉 扯 &lt;AP&gt; 时 间 着 急 的 &lt;AP&gt; 冲 刷 着 &lt;AP&gt; 剩 下 了 什 么 &lt;AP&gt; 原 谅 走 过 的 那 些 曲 折 &lt;AP&gt; 原 来 留 下 的 &lt;AP&gt; 都 是 真 的 &lt;AP&gt; 纵 然 似 梦 啊 &lt;AP&gt; 半 醒 着 &lt;AP&gt; 笑 着 哭 着 都 快 活 &lt;AP&gt; 时 间 是 让 人 促 不 及 防 的 东 西 &lt;AP&gt; 晴 时 有 风 阴 有 时 雨 &lt;AP&gt; 争 不 过 朝 夕 &lt;AP&gt; 又 念 着 往 昔 &lt;AP&gt; 偷 走 了 情 丝 却 留 住 一 个 你 &lt;AP&gt; 岁 月 是 一 场 有 去 无 回 &lt;AP&gt; 的 旅 行 &lt;AP&gt; 好 的 坏 的 &lt;AP&gt; 都 是 风 景 &lt;AP&gt; 别 怪 我 贪 心 &lt;AP&gt; 只 是 不 愿 醒 &lt;AP&gt; 因 为 你 只 愿 你 愿 和 我 一 起 &lt;AP&gt; 看 云 淡 风 轻 &lt;AP&gt;
-
-&lt;AP&gt; 能 够 握 紧 的 就 别 放 了 &lt;AP&gt; 能 够 拥 抱 的 &lt;AP&gt; 就 别 拉 扯 &lt;AP&gt; 时 间 着 急 的 &lt;AP&gt; 冲 刷 着 &lt;AP&gt; 剩 下 了 什 么 &lt;AP&gt; 原 谅 走 过 的 那 些 曲 折 &lt;AP&gt; 原 来 留 下 的 &lt;AP&gt; 都 是 真 的 &lt;AP&gt; 纵 然 似 梦 啊 &lt;AP&gt; 半 醒 着 &lt;AP&gt; 笑 着 哭 着 都 快 活 &lt;AP&gt; 谁 让 &lt;AP&gt; 时 间 是 让 人 促 不 及 防 的 东 西 &lt;AP&gt; 晴 时 有 风 阴 有 时 雨 &lt;AP&gt; 争 不 过 朝 夕 &lt;AP&gt; 又 念 着 往 昔 &lt;AP&gt; 偷 走 了 情 丝 却 留 住 一 个 你 &lt;AP&gt; 岁 月 是 一 场 有 去 无 回 &lt;AP&gt; 的 旅 行 &lt;AP&gt; 好 的 坏 的 &lt;AP&gt; 都 是 风 景 &lt;AP&gt; 别 怪 我 贪 心 &lt;AP&gt; 只 是 不 愿 醒 &lt;AP&gt; 因 为 你 只 为 你 愿 和 我 一 起 &lt;AP&gt; 看 云 淡 风 轻 &lt;AP&gt;
+**Word**: &lt;AP&gt; 能 够 握 紧 的 就 别 放 了 &lt;AP&gt; 能 够 拥 抱 的 &lt;AP&gt; 就 别 拉 扯 &lt;AP&gt; 时 间 着 急 的 &lt;AP&gt; 冲 刷 着 &lt;AP&gt; 剩 下 了 什 么 &lt;AP&gt; 原 谅 走 过 的 那 些 曲 折 &lt;AP&gt; 原 来 留 下 的 &lt;AP&gt; 都 是 真 的 &lt;AP&gt; 纵 然 似 梦 啊 &lt;AP&gt; 半 醒 着 &lt;AP&gt; 笑 着 哭 着 都 快 活 &lt;AP&gt; 谁 让 &lt;AP&gt; 时 间 是 让 人 促 不 及 防 的 东 西 &lt;AP&gt; 晴 时 有 风 阴 有 时 雨 &lt;AP&gt; 争 不 过 朝 夕 &lt;AP&gt; 又 念 着 往 昔 &lt;AP&gt; 偷 走 了 情 丝 却 留 住 一 个 你 &lt;AP&gt; 岁 月 是 一 场 有 去 无 回 &lt;AP&gt; 的 旅 行 &lt;AP&gt; 好 的 坏 的 &lt;AP&gt; 都 是 风 景 &lt;AP&gt; 别 怪 我 贪 心 &lt;AP&gt; 只 是 不 愿 醒 &lt;AP&gt; 因 为 你 只 为 你 愿 和 我 一 起 &lt;AP&gt; 看 云 淡 风 轻 &lt;AP&gt;
 
 &lt;AP&gt; 时 间 是 让 人 促 不 及 防 的 东 西 &lt;AP&gt; 晴 时 有 风 阴 有 时 雨 &lt;AP&gt; 争 不 过 朝 夕 &lt;AP&gt; 又 念 着 往 昔 &lt;AP&gt; 偷 走 了 青 丝 却 留 住 一 个 你 &lt;AP&gt; 岁 月 是 一 场 有 去 无 回 的 旅 行 &lt;AP&gt; 好 的 坏 的 &lt;AP&gt; 都 是 风 景 &lt;AP&gt; 别 怪 我 贪 心 &lt;AP&gt; 只 是 不 愿 醒 &lt;AP&gt; 因 为 你 只 为 你 愿 和 我 一 起 &lt;AP&gt; 看 云 淡 风 轻 &lt;AP&gt;
 
 **Global Style (range, pace, emotion)**: medium->high, moderate, sad
 
-**Phoneme with Technique**: The first half uses chest voice, while the latter section transitions to mixed voice
+**Phoneme with Technique**:  Mixed voice is predominantly utilized as the foundational vocal technique
 
 #### Genration Results
 
